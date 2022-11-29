@@ -7,7 +7,7 @@ for list in question_data:
     list_q = []
     for key in list:
         list_q.append(list[key])
-    question = Question(list_q[0], list_q[1])
+    question = Question(list_q[3], list_q[4])
     questions_bank.append(question)
 
 quiz = QuizBrain(questions_bank)
